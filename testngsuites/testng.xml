@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite1">
+
+    <listeners>
+        <listener class-name="org.appium.framework.ReportListeners"/>
+    </listeners>
+
+    <test name="End to End Android">
+        <classes>
+            <class name="org.appium.tests.GeneralStoreTests"/>
+        </classes>
+    </test>
+    <test name="End to End IOS">
+        <classes>
+            <class name="org.appium.tests.UIKitCatalogTests"/>
+        </classes>
+    </test>
+</suite>
