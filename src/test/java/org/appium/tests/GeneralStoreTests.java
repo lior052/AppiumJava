@@ -10,12 +10,12 @@ import org.testng.annotations.*;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
-
+//temp
 @Listeners(ReportListeners.class)
 public class GeneralStoreTests extends AndroidBaseTest {
 
-    String webViewContext = "WEBVIEW_com.androidsample.generalstore";
-    String nativeContext = "NATIVE_APP";
+//    String webViewContext = "WEBVIEW_com.androidsample.generalstore";
+//    String nativeContext = "NATIVE_APP";
 
     @DataProvider
     public Object[][] getTestData() {
